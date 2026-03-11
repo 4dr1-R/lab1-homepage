@@ -8,29 +8,139 @@
 <body>
   <header>
     <h1>My course homepage</h1>
-    <p>Optional tagline here.</p>
   </header>
   <nav aria-label="Main navigation">
     <ul>
       <li><a href="https://stefaniga.github.io/ewd-uvt-2026/lecture-1/">Course site</a></li>
-      <li><a href="https://stefaniga.github.io/ewd-uvt-2026/labs/1/">Resources</a></li>
+      <li><a href="#">Resources</a></li>
       <li><a href="contact.html">Contact</a> </li>
     </ul>
   </nav>
   <main id="main-content">
     <section>
       <h2>About me / Course goals</h2>
-      <p>My name is Vasiescu Adriana. I'm currently studyin Computer Science. To be able to create beautiful designs for web pages by the end of this course.</p>
+      <p>My name is Vasiescu Adriana. I'm currently studying Computer Science. To be able to create beautiful designs for web pages by the end of this course.</p>
     </section>
     <section>
       <h2>Photo</h2>
       <img src="360_F_1259180121_rKxqQ3axerj2dqdNRu1DFFnIy3X4XsMe.jpg" alt="A decorative picture with an assortment of pastel pink flowers for a cozy vibe.">
     </section>
+
+    <table border="1">
+    <thead>
+        <tr>
+            <th scope="col" colspan="3">Personal Skills</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row" rowspan="3">Programming</th>
+            <td>JavaScript</td>
+            <td>Beginner</td>
+        </tr>
+        <tr>
+            <td>C/C++</td>
+            <td>Intermediate</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>Intermediate</td>
+        </tr>
+        <tr>
+            <th scope="row" rowspan="4">Design</th>
+            <td colspan="2">Figma</td>
+        </tr>
+        <tr>
+            <td colspan="2">Canva</td>
+        </tr>
+        <tr>
+            <td colspan="2">Photoshop</td>
+        </tr>
+        <tr>
+            <td colspan="2">UI/UX</td>
+        </tr>
+        <tr>
+            <th scope="row">Other</th>
+            <td colspan="2">Git</td>
+        </tr>
+    </tbody>
+  </table>
+
+  <table border="1">
+      <caption>Personal projects</caption>
+      <thead>
+        <tr>
+          <th scope="col">Project Name</th>
+          <th scope="col">Description</th>
+          <th scope="col">Technologies</th>
+          <th scope="col">Difficulty</th>
+          <th scope="col">Link</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Daily Schedule</td>
+          <td>A desktop app that helps organise activities and keep track of deadlines.</td>
+          <td>
+            <ul>
+              <li>Java</li>
+              <li>JavaFX</li>
+              <li>SQLite</li>
+              <li>Eclipse</li>
+            </ul>
+          </td>
+          <td>
+            <select name="difficulty">
+              <option value="low">Low</option>
+              <option value="medium" selected>Medium</option>
+              <option value="high">High</option>
+            </select>
+          </td>
+          <td><a href="https://github.com/Programare-III-2025-2026/p3-proiect-gr8-4dr1-R.git">Link to Github</a></td>
+        </tr>
+        <tr>
+          <td>Student Log</td>
+          <td>A basic app that stores grades and information about student id's into local files.</td>
+          <td>
+            <ul>
+              <li>C++</li>
+              <li>Codeblocks</li>
+            </ul>
+          </td>
+          <td><select name="difficulty">
+                <option value="low" selected>Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+              </select>
+          </td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Online Library Administration</td>
+          <td>A series of SQL commands that creates and manipulates tables and data about books.</td>
+          <td>
+            <ul>
+              <li>SQL</li>
+              <li>Oracle</li>
+            </ul>
+          </td>
+          <td><select name="difficulty">
+                <option value="low" selected>Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+              </select>
+          </td>
+          <td>-</td>
+        </tr>
+
+      </tbody>
+
+  </table>
+
   </main>
   <footer>
     <p>Adriana Vasiescu · Web Design · Semester 2</p>
   </footer>
 </body>
-
 </html>
-
